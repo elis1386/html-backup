@@ -1,0 +1,233 @@
+body {
+  font-size: 62.5%;
+  width: 1024px;
+  margin: 0 auto;
+}
+/* HEADER */
+.header {
+  display: block;
+  border-bottom: 1px solid grey;
+  height: 80px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_logo {
+  display: block;
+  font-size: 2rem;
+  text-decoration: none;
+  margin: 1rem;
+  color: #ff3701;
+}
+.nav_links {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+.link {
+  text-decoration: none;
+  color: #5e5a5a;
+}
+.link:hover {
+  color: #ff3701;
+}
+/* FIRST BLOCK */
+.main {
+  height: 600px;
+  background: url(./images/main_photo_2.avif);
+  background-repeat: no-repeat;
+  background-position: 0%;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.main_text{
+  width: 80%;
+  height: 70%;
+  background: rgba(167, 165, 167, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+
+  
+}
+.main_text h3{
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 1rem 2rem;
+
+
+}
+.main_text p{
+  font-size: 1.5rem;
+  text-align: left;
+  padding: 2rem;
+  
+
+}
+.list a
+{
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #5e5a5a;
+  margin: 2rem;
+}
+.list a:hover{
+  color: #ff3701;
+}
+/* SECOND BLOCK */
+.box__cards
+{
+  padding: 15px;
+  background: lightgray;
+  margin-bottom: 2rem;
+}
+
+.cards
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 1rem;
+  gap: 1rem;
+
+}
+.box__title{
+  font-size: 2rem;
+  color: black;
+  margin: 1rem 0;
+  font-weight: 700;
+}
+.item
+{
+  width: 32%;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  background: white;
+  margin-bottom: 1rem;
+
+}
+.item__photo
+{
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+.item__title
+{
+  font-size: 2rem;
+  color: black;
+  margin: 1rem 0;
+  font-weight: 700;
+}
+.item__text
+{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.lisää
+{
+  display: block;
+  text-decoration: none;
+  color:  #ff3701;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-size: 2rem;
+}
+
+/* THIRD BLOCK */
+
+.nykyisyys
+{
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+}
+.nykyisyys__title
+{
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+.nykyisyys__text
+{
+  font-size: 1.4rem;
+}
+.nykyisyys__photo
+{
+  display: block;
+
+}
+.tulevaisyys
+{
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+}
+.tulevaisyys__title
+{
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 1rem;
+}
+.tulevaisyys__text
+{
+  font-size: 1.4rem;
+  margin: 0 1rem;
+
+}
+.tulevaisyys__photo
+{
+  display: block;
+}
+
+/* FOOTER */
+.contact
+{
+  font-size: 2rem;
+  font-weight: 700;
+  color:  #ff3701;
+  margin: 1rem 0;
+}
+.form
+{
+  display: flex;
+  flex-direction: column;
+}
+.form__label
+{
+  font-size: 1.4rem;
+}
+.form__input
+{
+  font-size: 1.6rem;
+  margin: 1rem;
+
+}
+.form__btn
+{
+  font-size: 1.4rem;
+  background-color:  #ff3701;
+  color: white;
+  text-align: center;
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem 45%;
+ 
+
+}
+.fotter__copy
+{
+  font-size: 1.4rem;
+  margin: 1rem 0;
+  display: block;
+  height: 50px;
+
+}
+
+
