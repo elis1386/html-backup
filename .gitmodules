@@ -1,0 +1,3 @@
+[submodule "bc_nuuksio"]
+	path = bc_nuuksio
+	url = https://github.com/elis1386/bc_nuuksio.git
