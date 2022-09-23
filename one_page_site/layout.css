@@ -6,14 +6,15 @@ body {
 /* HEADER */
 .header {
   display: block;
-  position: fixed;
   max-width: 100%;
   width: 1024px;
-  z-index: 100;
+  z-index: 10;
   background-color: white;
   border-bottom: 1px solid grey;
+  position: fixed;
   height: 80px;
 }
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -38,6 +39,17 @@ body {
 .link:hover {
   color: #ff3701;
 }
+.anchor
+{
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  top: -80px;
+  left: 0;
+  visibility: hidden;
+}
 /* FIRST BLOCK */
 .main {
   height: 600px;
@@ -56,15 +68,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  /*  width: 80%;
-  height: 70%;
-  background: rgba(167, 165, 167, 0.5);
-  
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black; */
 }
 .main_text h3 {
   font-size: 2.4rem;
@@ -110,11 +113,14 @@ body {
 .list a:hover{
   color: #ff3701;
 } */
+
+
 /* SECOND BLOCK */
 .box__cards {
   padding: 15px;
   background: lightgray;
   margin-bottom: 2rem;
+  position: relative;
 }
 
 .cards {
@@ -167,6 +173,7 @@ body {
   display: flex;
   justify-content: space-between;
   height: 300px;
+  position: relative;
 }
 .nykyisyys__title {
   font-size: 1.8rem;
@@ -183,6 +190,7 @@ body {
   display: flex;
   justify-content: space-between;
   height: 300px;
+  position: relative;
 }
 .tulevaisyys__title {
   font-size: 1.8rem;
@@ -200,6 +208,7 @@ body {
 /* FOOTER */
 .footer {
   margin-top: 1rem;
+  position: relative;
 }
 .contact {
   font-size: 2rem;
