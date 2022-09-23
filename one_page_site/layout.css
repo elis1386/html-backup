@@ -225,6 +225,13 @@ body {
   border-radius: 1rem;
   margin: 1rem 45%;
 }
+.form__btn:hover 
+{
+  background-color: #fff;
+  color:  #ff3701;
+  border: 1px solid  #ff3701;
+  border-radius: 1rem;
+}
 .fotter__copy {
   font-size: 1.4rem;
   margin: 1rem;
