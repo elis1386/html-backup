@@ -6,6 +6,11 @@ body {
 /* HEADER */
 .header {
   display: block;
+  position: fixed;
+  max-width: 100%;
+  width: 1024px;
+  z-index: 100;
+  background-color: white;
   border-bottom: 1px solid grey;
   height: 80px;
 }
