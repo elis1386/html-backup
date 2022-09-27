@@ -207,8 +207,24 @@ body {
 
 /* FOOTER */
 .footer {
-  margin-top: 1rem;
+ /*  margin-top: 1rem; */
   position: relative;
+}
+.field
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form__label {
+  font-size: 1.4rem;
+  margin: 0 0.5rem;
+}
+.form__input {
+  font-size: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  width: 70%;
 }
 .contact {
   font-size: 2rem;
@@ -220,6 +236,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+/* 
 .form__label {
   font-size: 1.4rem;
   margin: 0 0.5rem;
@@ -228,7 +245,7 @@ body {
   font-size: 1rem;
   margin: 1rem;
   padding: 1rem;
-}
+} */
 .form__btn {
   font-size: 1.4rem;
   background-color: #ff3701;
