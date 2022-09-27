@@ -185,6 +185,7 @@ body {
 }
 .nykyisyys__photo {
   display: block;
+  margin: 2rem;
 }
 .tulevaisyys {
   display: flex;
@@ -203,6 +204,7 @@ body {
 }
 .tulevaisyys__photo {
   display: block;
+  margin: 2rem;
 }
 
 /* FOOTER */
