@@ -7,7 +7,7 @@ body {
  }
  .container {
     overflow: hidden;
-    margin: 10px;
+    margin: 1rem;
  }
  .box {
     float: left;
@@ -28,7 +28,7 @@ body {
     height: 100%;
     object-fit: cover;
  }
- .boxitem .titleItem {
+ .item .titleItem {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -39,12 +39,13 @@ body {
     color: #FFF;
     padding: 10px;
     text-align: center;
+    font-size: 1.2rem;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
  }
- body.no-touch .item:hover .titleItem, body.touch .item.touchFocus .titleItem {
+   .item:hover .titleItem {
     margin-bottom: 0;
  }
  @media only screen and (max-width : 480px) {
